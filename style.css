@@ -1,4 +1,6 @@
-/* RESET */
+html{
+  scroll-behavior: smooth;
+}
 * { margin: 0; padding: 0; }
 body {
   font-size: 16px;
@@ -9,7 +11,7 @@ body {
 }
 
 /* FIX for scroll offset */
-section, footer { scroll-margin-top: 100px; }
+/* section, footer { scroll-margin-top: 100px; } */
 
 /* NAVBAR */
 .container {
@@ -277,3 +279,4 @@ footer h1 { font-size: 1.8rem; margin-bottom: 1rem; color: coral; }
   body { font-size: 11px; }
   .info { font-size: 0.9rem; }
 }
+
